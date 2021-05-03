@@ -1,0 +1,15 @@
+2. The application should print out "Mares do eat oats."
+
+- Is it guaranteed to always do this?
+    -- No it is not guaranteed
+- If not, why not?
+    -- Their is no happens-before relationship
+
+
+3. Would it help to change the parameters of the two invocations of Sleep?
+        -- yes it can help but still will not guarantee correct execution.
+
+
+4. How would you guarantee that all changes to message will be visible in the main thread?
+
+    -- Use .join() on the thread.

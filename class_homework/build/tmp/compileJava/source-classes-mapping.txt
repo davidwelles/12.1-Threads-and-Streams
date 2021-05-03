@@ -1,0 +1,3 @@
+com/tts/homework/BadThreads.java
+ com.tts.homework.BadThreads
+ com.tts.homework.BadThreads$CorrectorThread
